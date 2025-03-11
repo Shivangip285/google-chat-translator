@@ -7,11 +7,5 @@
   "host_permissions": ["https://translate.googleapis.com/"],
   "action": {
     "default_popup": "popup.html"
-  },
-  "web_accessible_resources": [
-    {
-      "resources": ["index.html", "static/*"],
-      "matches": ["*://chat.google.com/*"]
-    }
-  ]
+  }
 }
